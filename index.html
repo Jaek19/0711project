@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>0711 웹사이트</title>
+    <link rel="stylesheet" href="css/0711.css" />
+  </head>
+  <body>
+    <div id="layout">
+      <header>
+        <div id="logoContainer">
+          <img src="images/logo.jpg" id="logo" alt="로고" />
+        </div>
+        <ul>
+          <li><a href="#" class="mainMenu">클럽소개</a></li>
+          <li>
+            <a href="#" class="mainMenu">이용안내</a>
+            <nav>
+              <a href="#" class="subMenu">요금안내</a>
+              <a href="#" class="subMenu">클럽하우스</a>
+              <a href="#" class="subMenu">부대시설</a>
+              <a href="#" class="subMenu">연습장</a>
+            </nav>
+          </li>
+          <li>
+            <a href="#" class="mainMenu">커뮤니티</a>
+            <nav>
+              <a href="#" class="subMenu">자료실</a>
+              <a href="#" class="subMenu">주변관광지</a>
+              <a href="#" class="subMenu">포토갤러리</a>
+            </nav>
+          </li>
+        </ul>
+      </header>
+      <section id="slide">
+        <h3>제일 컨트리 클럽에 오신 것을 환영합니다.</h3>
+        <div id="slideImgContainer">
+          <img src="images/slide1.jpg" alt="1번" class="slideImg" />
+          <img src="images/slide2.jpg" alt="2번" class="slideImg" />
+          <img src="images/slide3.jpg" alt="3번" class="slideImg" />
+        </div>
+      </section>
+      <main>
+        <section id="notice">
+          <a href="#"> <h2>공지사항</h2></a>
+          <hr />
+          <ul>
+            <li><a href="#">파3GC 휴장안내</a> <span>2018-04-06</span></li>
+            <li><a href="#">분실물 처분 안내</a> <span>2018-03-15</span></li>
+            <li>
+              <a href="#">015 파3 혹한기 할인쿠폰 판매</a
+              ><span>2015-11-23</span>
+            </li>
+            <li>
+              <a href="#">2015 동절기 이벤트 안내</a> <span>2015-11-06</span>
+            </li>
+            <li>
+              <a href="#">2014 연말모임 예약안내</a> <span>2014-11-13</span>
+            </li>
+            <li>
+              <a href="#">김영수병원 진로우대협약 안내</a>
+              <span>2014-09-02</span>
+            </li>
+          </ul>
+        </section>
+        <section id="partner">
+          <a href="#"><h2>협력사 콘텐츠</h2></a>
+          <hr />
+          <div id="partnerContainer">
+            <img src="images/partner.jpg" alt="파트너" />
+          </div>
+          <section id="partner2">
+            <div id="result">
+              <h4>
+                결과의차이<br />
+                첨단장비시스템
+              </h4>
+            </div>
+            <div id="listT">
+              <ol>
+                <li>원스톱 토탈케어 서비스</li>
+                <li>쁘띠 프랑스</li>
+                <li>영상진단기</li>
+                <li>자기공명 영상장비</li>
+              </ol>
+            </div>
+          </section>
+        </section>
+        <section id="board">
+          <br />
+          <div id="btnContainer">
+            <button
+              type="button"
+              class="btn"
+              id="date"
+              onclick="alert('예약하기')"
+            >
+              <h4>병원 진료예약</h4>
+            </button>
+            <button
+              type="button"
+              class="btn"
+              id="search"
+              onclick="alert('의료진 검색')"
+            >
+              <h4>의료진 찾기</h4>
+            </button>
+            <button
+              type="button"
+              class="btn"
+              id="inquiry"
+              onclick="alert('문의하기')"
+            >
+              <h4>문의하기</h4>
+            </button>
+            <button
+              type="button"
+              class="btn"
+              id="map"
+              onclick="location.href ='https://maps.app.goo.gl/dS927BTggBrQaeAw7'"
+            >
+              <h4>오시는 길</h4>
+            </button>
+          </div>
+        </section>
+      </main>
+      <footer>
+        <section id="foot">
+          <ul class="no1">
+            <li><a href="#" onclick="alert('이용약관')">이용약관</a></li>
+            <li>
+              <a href="#('개인정보보호방침')">개인정보보호방침</a>
+            </li>
+          </ul>
+          <ul class="no2">
+            <li><a href="#">이메일무단수집금지</a></li>
+            <li>
+              <a href="#"
+                >주소: 경기도 안산시 상록구 태마당로 28, 10동(부곡동)</a
+              >
+            </li>
+            <li><a href="#">상호명: 제일컨트리클럽</a></li>
+          </ul>
+          <ul class="no3">
+            <li><a href="tel:031-400-2500">대표전화: 031-400-2500</a></li>
+            <li><a href="tel:031-400-2516">예약전화: 031-400-2516</a></li>
+            <li>
+              <a href="#">Copyright ⓒ 2010 JAEIL C.C. All Right Reserved.</a>
+            </li>
+          </ul>
+        </section>
+      </footer>
+    </div>
+  </body>
+</html>
