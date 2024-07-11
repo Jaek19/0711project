@@ -285,6 +285,8 @@ main {
     margin: 30%;
     width: 30%;
   }
+  .subMenu{
+    padding:0;
 }
 @media (max-width: 448px) {
   .mainMenu {
